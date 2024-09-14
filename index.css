@@ -1,0 +1,374 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1340px;
+    margin: 0;
+}
+.header-parent{
+    position: relative;
+    height: 100px;
+    background-color: white;
+    margin: 0 5px;
+}
+.box1{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.box2{
+    position: absolute;
+    left: 500px;
+    top: 40px;
+    margin-left: -50px;
+}
+.box2 a{
+    margin: 30px;
+    color: black;
+    text-decoration: none;
+}
+.box3{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+.btn1{
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 0;
+    color: black;
+    margin-right: 20px;
+}
+.btn1:hover{
+    text-decoration: underline;
+}
+.btn2{
+    background-color: rgb(47, 199, 219);
+    padding: 5px;
+    color: #ffffff;
+    
+}
+.btn2:hover{
+    background-color: blueviolet;
+    border: 2px solid blue;
+}
+/* ====> Hero section start <==== */
+.hero-parent{
+    background-color: #ffffff;
+}
+.hero-left{
+    display: inline-block;
+    position: relative;
+    width: 48vw;
+    height: 500px;
+}
+.heroLeftdot{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.leftsidebar{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.herLeftHeading3{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    letter-spacing: 3px;
+}
+.heroLeftHeading1{
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    font-size: 60px;
+}
+.heroLeftpara1{
+    position: absolute;
+    top: 240px;
+    left: 50px;
+    line-height: 0.5px;
+}
+.heroLeftbtn img:hover{
+    border: 1px solid rgb(215, 105, 105);
+    margin: 0;
+    padding: 0;
+}
+.heroLeftbtn img{
+    position: absolute;
+    left: 30px;
+    top: 260px;
+    height: 100px;
+    width: 180px;
+}
+.heroLeftsideimg2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/* .heroLeftboxes{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+} */
+.heroLefrBox1{
+    position: absolute;
+    right: 0;
+    bottom: 160px;
+}
+.heroLefrBox3{
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+}
+.heroLefrBox2{
+    position: absolute;
+    right: 140px;
+    bottom: 80px;
+}
+.heroLefrBox5{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.heroLefrBox4{
+    position: absolute;
+    right: 140px;
+    bottom: 0;
+}
+.heroRight{
+    float: right;
+    position: relative;
+    width: 48vw;
+    height: 500px;
+}
+.bigImg1{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+}
+.heroRightImg2{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.heroRightImg3{
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+}
+
+/* ====> Hero section end <==== */
+
+/* ====> Hero second part start <==== */
+.heroSecond_parent{
+    height: 700px;
+    clear: both;
+}
+.heroSecond_left{
+    float: left;
+    position: relative;
+    background-color: #ffffff;
+    height: 700px;
+    width: 49vw;
+}
+.heroSecondimg1{
+    position: absolute;
+    left: 140px;
+    top: 100px;
+    z-index: 100;
+}
+.heroSecondimg2{
+    position: absolute;
+    left: 150px;
+    top: 280px;
+    z-index: 90;
+}
+.heroSecondimg3{
+    position: absolute;
+    left: 10px;
+    top: 150px;
+    z-index: 80;
+}
+.heroSecondimg4{
+    position: absolute;
+    left: 350px;
+    top: 80px;
+    z-index: 110;
+}
+.heroSecondimg5{
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+    z-index: 70;
+}
+.heroSecond_right{
+    float: right;
+    width: 49vw;
+    position: relative;
+}
+.heroSecondPara1{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    letter-spacing: 10px;
+    font-weight: 900;
+}
+.heroSecondPara2{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    letter-spacing: 10px;
+    font-weight: 900;
+}
+.heroSecondPara3{
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    letter-spacing: 10px;
+    font-weight: 900;
+}
+.heroSecondPara4{
+    position: absolute;
+    right: 70px;
+    top: 80px;
+    letter-spacing: 10px;
+    font-weight: 900;
+}
+.heroSecondPara5{
+    position: absolute;
+    right: 70px;
+    top: 100px;
+    letter-spacing: 10px;
+    font-weight: 900;
+}
+.heroSecondPara6{
+    position: absolute;
+    right: 70px;
+    top: 120px;
+    letter-spacing: 10px;
+    font-weight: 900;
+}
+.heroSecondHeading2{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    font-size: 50px;
+}
+.paralarge{
+    position: absolute;
+    left: 100px;
+    top: 280px;
+    width: 400px;
+    color: rgb(35, 137, 103);
+}
+/* .tirImage{
+    position: absolute;
+    left: 100px;
+    top: 350px;
+} */
+.readMore{
+    position: absolute;
+    left: 100px;
+    top: 380px;
+}
+.heroSecondRightImg3{
+    position: absolute;
+    top: 570px;
+    right: 10px;
+}
+
+/* ====> Hero second part end <==== */
+/* ====> Hero third part start ==== */
+.heroThird_parent{
+    position: relative;
+    height: 400px;
+}
+.heroThirdImg1{
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+.heroThirdImg2{
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
+.heroThirdBox1Img{
+    position: absolute;
+    left: 220px;
+    top: 60px;
+}
+.heroThirdBox1Heading{
+    position: absolute;
+    left: 160px;
+    top: 150px;
+    font-size: 25px;
+}
+.heroThirdBox1para{
+    position: absolute;
+    left: 160px;
+    top: 190px;
+    width: 200px;
+    text-align: justify;
+}
+.heroThirdBox2Img{
+    position: absolute;
+    left: 600px;
+    top: 60px;
+}
+.heroThirdBox2Heading{
+    position: absolute;
+    left: 540px;
+    top: 150px;
+    font-size: 25px;
+}
+.heroThirdBox2Para{
+    position: absolute;
+    left: 540px;
+    top: 190px;
+    width: 200px;
+    text-align: justify;
+}
+.heroThirdBox3Img{
+    position: absolute;
+    left: 980px;
+    top: 60px;
+}
+.heroThirdBox3Heading{
+    position: absolute;
+    left: 920px;
+    top: 150px;
+}
+.heroThirdBox3Para{
+    position: absolute;
+    left: 920px;
+    top: 190px;
+    width: 200px;
+    text-align: justify;
+}
+.heroThirdImg3{
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+.heroThirdImg4{
+    position: absolute;
+    right: 80px;
+    bottom: 20px;
+}
+.heroThirdImg5{
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+}
+.heroThirdImg6{
+    position: absolute;
+    right: 80px;
+    bottom: 40px;
+}
+
+/* ====> Hero third part start ==== */
